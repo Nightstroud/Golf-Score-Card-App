@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../css/background_style.css">
+    <link rel="stylesheet" href="../css/card_style.css">
+    <link rel="stylesheet" href="../css/select_tee_style.css">
+    <link rel="stylesheet" href="../css/golf_card_style.css">
+    <link href="https://golf-courses-api.herokuapp.com/courses">
+    <meta charset="UTF-8">
+    <script src="../javascript/card.js" defer></script>
+    <script src="../javascript/selections.js" defer></script>
+    <script src="../javascript/golf_card.js" defer></script>
+    <title>Golf-Card</title>
+</head>
+<body>
+
+    <div id="background"></div>
+    <div id="backgroundShader"></div>
+
+    <div id="courses"></div>
+
+    <div id="selection">
+        <div class="teeType">
+            <p style="color: white">Please Select Your Tee Type!</p>
+            <select id="selectedTee">
+                <option value="champion">Champion</option>
+                <option value="men">Men</option>
+                <option value="women">Women</option>
+            </select>
+            <button id="selectTee" onclick="selectTee()">Select Tee</button>
+        </div>
+    </div>
+
+    <div id="golfCard"></div>
+</body>
+</html>

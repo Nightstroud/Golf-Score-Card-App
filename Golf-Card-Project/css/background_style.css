@@ -1,0 +1,62 @@
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#background {
+    width:  100%;
+    height:  100%;
+    margin: 0;
+    padding: 0;
+   background-image: url("../resources/GolfBackground.jpg");
+    background-size: cover;
+    z-index: 0;
+    position: absolute;
+}
+
+#backgroundShader {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    position: absolute;
+}
+
+#selection {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, .7);
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#golfCard {
+    width:  100%;
+    height:  100%;
+    margin: 0;
+    padding: 0;
+    z-index: 20;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../resources/GolfBackground.jpg");
+    background-size: cover;
+}

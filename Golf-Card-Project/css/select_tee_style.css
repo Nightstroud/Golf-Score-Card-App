@@ -1,0 +1,24 @@
+.teeType {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    z-index: 11;
+}
+
+.teeType button {
+    background-color: darkblue;
+    border-radius: 20px;
+    margin-top: 20px;
+    z-index: 12;
+    color: white;
+}
+
+#selectedTee {
+    background-color: white;
+    z-index: 12;
+}

@@ -1,0 +1,44 @@
+#courses {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseCard {
+    background-color: black;
+    width: 300px;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    z-index: 2;
+    margin: 0 10px;
+}
+
+.courseImg {
+    background: white;
+    margin: 10px 0 0 0;
+    width: 90%;
+    height: 40%;
+    z-index: 3;
+}
+
+.courseDescription {
+    z-index: 3;
+}
+
+.courseButton {
+    z-index: 3;
+}
+
+.courseButton button {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: darkgreen;
+}
